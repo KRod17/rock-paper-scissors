@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Piedra, Papel o Tijera</title>
+</head>
+<body>
+    <a href="https://www.instagram.com/_krod17/"> IG: _krod17</a>
+    <h2>Computadora: <span id="eleccion-computadora"></span></h2>
+    <h2>Elección: <span id="eleccion-usuario"></span></h2>
+    <h2>Resultado: <span id="resultado"></span></h2>
+    <div id="resetContainer">
+        <button class="resetButton" onclick="reset()">Reset</button>
+    </div>
+    <div class="opciones">
+        <img src="img/piedra.png" alt="piedra" class="imagen" id="Piedra">
+        <img src="img/papel.png" alt="papel" class="imagen" id="Papel">
+        <img src="img/tijeras.png" alt="tijeras" class="imagen" id="Tijeras">
+    </div>
+    <div class="score">Player: <span class="count" id="winCount">0</span></div>
+    <div class="score">Computadora: <span class="count" id="loseCount">0</span></div>
+    
+    <script src="app.js" charset="utf-8"></script>
+    <footer><br><a href="https://www.instagram.com/_krod17/"> IG: _krod17</a></footer>
+</body>
+</html>
